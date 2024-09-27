@@ -142,19 +142,6 @@ export const Fullstack = [
 
 
 
-export const contactList = [
-    { title: 'Title', description: 'Desc1', id: 1 },
-    { title: 'Title', description: 'Desc1', id: 1 },
-    { title: 'Title', description: 'Desc1', id: 1 },
-    { title: 'Title', description: 'Desc1', id: 1 },
-]
-
-
-
-
-
-
-
 
 
 export const TechImages = [

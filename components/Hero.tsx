@@ -1,11 +1,10 @@
+
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 
 import { FaLocationArrow } from 'react-icons/fa'
 import MagicButton from './MagicButton'
-import Items from './Items'
-// import { TypewriterEffectSmooth } from './ui/typewriter-effect'
 import { FaSquareGithub } from 'react-icons/fa6'
 
 
@@ -13,21 +12,7 @@ import { FaSquareGithub } from 'react-icons/fa6'
 
 
 function Hero() {
-  // const name = [
-  //   {
-  //   text:"I'm"
-  //   },
-  //   {
-  //     text: "John",
-  //   },
-  //   {
-  //     text: "Orland",
-  //   },
-  //   {
-  //     text: "Sudoy",
-  //     className: "text-xl text-blue-400 dark:text-blue-400 light:text-400",
-  //   },
-  // ];
+
   return (
 
 <div className='pb-20 pt-36'>

@@ -3,7 +3,6 @@ import React from "react";
 
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "./ui/canvas-reveal-effect";
-import { RiNextjsLine } from "react-icons/ri";
 import { FaLaravel, FaReact } from "react-icons/fa";
 import { TbBrandTypescript } from "react-icons/tb";
 
