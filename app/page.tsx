@@ -8,14 +8,13 @@ import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
 import { NavbarMenu } from "@/components/Navbar";
 import Sooner from "@/components/Sooner/Sooner";
 import Teachstack from "@/components/TeachStack/Teachstack";
-import TeachTitle from "@/components/TeachTitle";
+
 import { ThreeDCardDemo } from "@/components/ThreeDCardDemo";
-import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 
 
 
-import Image from "next/image";
-import { CgHome } from "react-icons/cg";
+
+
 
 export default function Home() {
   return (

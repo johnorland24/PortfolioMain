@@ -1,5 +1,4 @@
 import React from 'react'
-import { TypewriterEffectSmooth } from '../ui/typewriter-effect';
 import MagicButton from '../MagicButton';
 import { FaLocationArrow } from 'react-icons/fa6';
 
