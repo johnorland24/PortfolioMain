@@ -54,25 +54,6 @@ export const gridItems = [
     },
 ]
 
-export const skillSet = [
-    { title: 'Title', image: '/next.svg', description: 'Desc1', id: 1 },
-    { title: 'Title', description: 'Desc1', id: 1 },
-    { title: 'Title', description: 'Desc1', id: 1 },
-    { title: 'Title', description: 'Desc1', id: 1 },
-    { title: 'Title', description: 'Desc1', id: 1 },
-
-]
-
-export const myProject = [
-    { title: 'Title', description: 'Desc1', id: 1 },
-    { title: 'Title', description: 'Desc1', id: 1 },
-    { title: 'Title', description: 'Desc1', id: 1 },
-    { title: 'Title', description: 'Desc1', id: 1 },
-]
-
-
-
-
 export const capstone = [
     { title: 'Spotify clone',
          description: 'This is my Phase5 project In react js Spotify clone .', 
@@ -96,18 +77,8 @@ export const capstone = [
             url:'https://orlando-com.vercel.app/',
             gitUrl:'https://github.com/johnorland24/Orlando.com',
              id: 1 },
-   
 
-//     { title: 'Title', 
-//         description: 'css is a css framework that is very easy to use and very powerful.',
-//         image:'/css.svg',
-//         url:'/',
-//          id: 1 },
-]
-//https://cheery-medovik-eef28b.netlify.app/
-
-
-
+          ]
 export const Fullstack = [
     { title: 'SocialSync',
         
@@ -122,28 +93,7 @@ export const Fullstack = [
     img3:"/log.png" ,
     
     githubUrl:"https://github.com/johnorland24/capstones"},
-
-
-
-
-    
-    // { title: 'Title', description: 'Desc1', id: 1 },
-    // { title: 'Title', description: 'Desc1', id: 1 },
-    // { title: 'Title', description: 'Desc1', id: 1 },
 ]
-
-
-
-
-
-
-
-
-
-
-
-
-
 export const TechImages = [
     { img: '/tailwind.svg' },
     { img: '/react1.svg' },
