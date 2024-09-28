@@ -1,9 +1,28 @@
 import { FaLocationArrow } from "react-icons/fa6";  
-import { socialMedia } from "@/data";  
 import MagicButton from "../MagicButton";  
 import Image from 'next/image'; // Import Image from next/image  
 
 const Footer = () => {  
+
+  const socialMedia = [
+    {
+      id: 1,
+      img: "/github.svg",
+      url: "https://github.com/johnorland",
+    },
+    {
+      id: 2,
+      img: "/facebook.svg",
+      url: "https://www.facebook.com/johnorland.sudoy.1",
+    },
+    {
+        id: 2,
+        img: "/linkedin.svg",
+        url: "https://www.linkedin.com/in/john-orland-sudoy-75580a31b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BcD5EUi9BQwGMfCuL4jAW6w%3D%3D",
+      }
+  ];
+
+
   return (  
     <footer className="w-full pt-20 pb-10" id="contact">  
       <div className="flex flex-col items-center">  

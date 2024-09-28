@@ -1,58 +1,3 @@
-export const gridItems = [
-    {
-        title: 'why Nextjs?',
-        description: 'I love next js because of file structure very organized and easy to maintain. and Great for SEO like my Portfolio',
-        id: 1,
-        image: "/next1.svg",
-        linkurl: "https://nextjs.org/",
-        imageAlt: "Nextjs"
-    },
-
-    {
-        title: 'React',
-        description: 'I love react bacause of its component based architecture and its easy to use and easy to learn.',
-        id: 2,
-        linkurl: "/",
-        image: "/react1.svg",
-        imageAlt: "react"
-    },
-
-    {
-        title: 'Tailwind',
-        description: 'tailwind is a css framework that is very easy to use and very nice to create UI of project.',
-        id: 3,
-        linkurl: "/",
-        image: "/tailwind.svg",
-        imageAlt: "tailwind"
-    },
-
-    {
-        title: 'JavaScript',
-        description: 'I love javaScript for web development and also all framework of js and library.',
-        id: 4,
-        linkurl: "/",
-        image: "/js.svg",
-        imageAlt: ""
-    },
-
-    {
-        title: 'Html',
-        description: 'I use Html To create new custom  design .',
-        id: 5,
-        linkurl: "/",
-        image: "/html.svg",
-        imageAlt: ""
-    },
-
-    {
-        title: 'Css',
-        description: 'Plain Css My I love css For designing custom.',
-        id: 6,
-        linkurl: "/",
-        image: "/css.svg",
-        imageAlt: ""
-    },
-]
 
 export const capstone = [
     { title: 'Spotify clone',
@@ -94,19 +39,6 @@ export const Fullstack = [
     
     githubUrl:"https://github.com/johnorland24/capstones"},
 ]
-export const TechImages = [
-    { img: '/tailwind.svg' },
-    { img: '/react1.svg' },
-    { img: '/ts.svg' },
-    { img: '/html.svg' },
-    { img: '/css.svg' },
-    { img: '/js.svg' },
-    { img: '/mysql.svg' },
-    { img: '/php.svg' },
-    { img: '/larav.svg' },
-    { img: '/canva-1.svg' },
-]
-
 
 
 export const socialMedia = [
