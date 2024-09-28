@@ -8,7 +8,7 @@ function AbouteMe() {
         <section id="about" className='mb-10'>  
             <figure className='md:flex bg-slate-200 rounded-2xl p-8 md:p-1 dark:bg-slate-800 border-dashed border-2 border-gray-500 '>  
                 {/* Replace <img> with <Image> */}  
-                <Image   
+                <img  
                     src="/orland.png"   
                     alt="Profile Picture"   
                     className='w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto'   
@@ -33,7 +33,7 @@ function AbouteMe() {
                                 Junior Full stack dev  
                             </div>  
                             <div className='mt-3'>  
-                                <a href="johnOrlandSudoy.pdf" download="johnOrlandSudoy.pdf">  
+                                <a href="/johnOrlandSudoy.pdf" download="johnOrlandSudoy.pdf">  
                                     <MagicButton  
                                         title="Download CV"  
                                         icon={<FaLocationArrow />}  

@@ -1,27 +1,9 @@
 import { FaLocationArrow } from "react-icons/fa6";  
 import MagicButton from "../MagicButton";  
 import Image from 'next/image'; // Import Image from next/image  
+import { socialMedia } from "@/data";
 
 const Footer = () => {  
-
-  const socialMedia = [
-    {
-      id: 1,
-      img: "/github.svg",
-      url: "https://github.com/johnorland",
-    },
-    {
-      id: 2,
-      img: "/facebook.svg",
-      url: "https://www.facebook.com/johnorland.sudoy.1",
-    },
-    {
-        id: 2,
-        img: "/linkedin.svg",
-        url: "https://www.linkedin.com/in/john-orland-sudoy-75580a31b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BcD5EUi9BQwGMfCuL4jAW6w%3D%3D",
-      }
-  ];
-
 
   return (  
     <footer className="w-full pt-20 pb-10" id="contact">  
@@ -52,7 +34,7 @@ const Footer = () => {
             <a href={info.url} key={info.id}> 
               <div className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-gray-300 rounded-lg border border-black-300">  
                 <Image   
-                  src="/github.svg"   
+                  src={info.img}   
                   alt="icon"   
                   width={20}   
                   height={20}   
@@ -65,4 +47,5 @@ const Footer = () => {
     </footer>  
   );  
 };  
+
 export default Footer;

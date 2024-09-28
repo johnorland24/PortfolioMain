@@ -31,7 +31,7 @@ export function ThreeDCardDemo() {
               {item.description}  
             </CardItem>  
             <CardItem translateZ="100" className="w-full mt-4">  
-              <Image  
+              <img  
                 src={item.image}  
                 height="1000"  
                 width="1000"  
